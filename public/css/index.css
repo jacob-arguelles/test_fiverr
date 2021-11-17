@@ -1,0 +1,106 @@
+body {
+  margin: auto;
+}
+.contenedor {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px 1px gray;
+  min-height: 25%;
+  width: 25%;
+  margin: 5% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+.login > input,
+.login > button {
+  height: 30px;
+  margin: 5px;
+  transition: 0.3s all ease-in;
+  border: none;
+  background-color: #fafafa;
+}
+.login > button:hover {
+  border: none;
+  transition: 0.3s all ease-in;
+  background-color: #d5ecec;
+  cursor: pointer;
+}
+
+.login > input:hover {
+  background-color: #f1fffd;
+}
+.login > input:focus,
+.login > input:target,
+.login > input:active {
+  border: none;
+  transition: 0.3s all ease-in;
+  background-color: #f1fffd;
+}
+.btn-register:hover {
+  border: none;
+  transition: 0.3s all ease-in;
+  background-color: #d5ecec;
+  cursor: pointer;
+}
+.btn-register {
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  margin: 5px;
+  transition: 0.3s all ease-in;
+  border: none;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.content_BTN_register {
+  display: flex;
+  width: 100%;
+}
+.content_BTN_register > input,
+.content_BTN_register > button {
+  height: 30px;
+  margin: 5px;
+  transition: 0.3s all ease-in;
+  border: none;
+  background-color: #fafafa;
+}
+.content_BTN_register > input:active,
+.content_BTN_register > input:focus,
+.content_BTN_register > input:target {
+  border: none;
+  transition: 0.3s all ease-in;
+  background-color: #f1fffd;
+}
+
+.content_BTN_register > input:hover {
+  background-color: #f1fffd;
+}
+
+.content_BTN_register > button:hover {
+  border: none;
+  transition: 0.3s all ease-in;
+  background-color: #d5ecec;
+  cursor: pointer;
+}
+.content_BTN_register > button {
+  height: 30px;
+  margin: 5px;
+  transition: 0.3s all ease-in;
+  border: none;
+  background-color: #fafafa;
+  width: 50%;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="public/css/index.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Sing up</h1>
+        <form class="login" action="/register" method="post">
+            <input type="text" name='name'id='name' placeholder="Full name"required>
+            <input type="text" name='user'id='user' placeholder="username" required>
+            <input type="number" name='edad'id='edad' placeholder="Age" required>
+            <input type="password" name='password' id='password' placeholder="Password" required>
+            <div class="content_BTN_register">
+                <button type="submit">Save</button>
+                <button type="reset">Reset</button>
+            </div>
+            <a href="login" class="btn-register">Sing In</a>
+        </form>
+    </div>
+</body>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<% if(typeof alerta !== "undefined"){ %>
+<script>
+    Swal.fire({
+  position: 'top-end',
+  icon: 'success',
+  title: 'Registration successfull',
+  showConfirmButton: false,
+  timer: 1500
+}).then(()=>{
+    window.location='/'
+})
+</script>
+
+<% } %>
+
+</html>
